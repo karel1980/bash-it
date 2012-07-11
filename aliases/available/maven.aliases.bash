@@ -3,9 +3,12 @@ alias mi="mvn install"
 alias mrprep="mvn release:prepare"
 alias mrperf="mvn release:perform"
 alias mrrb="mvn release:rollback"
-alias mdep="mvn dependency:tree"
+alias mdt="mvn dependency:tree"
+alias mdl="mvn dependency:list"
 alias mpom="mvn help:effective-pom"
-alias mcisk="mci -Dmaven.test.skip=true"
+alias misk="mi -DskipTests"
+alias mcisk="mci -DskipTests"
+alias mee="mvn eclipse:eclipse"
 
 function maven-help() {
   echo "Maven Custom Aliases Usage"
@@ -15,8 +18,11 @@ function maven-help() {
   echo "  mrprep = mvn release:prepare"
   echo "  mrperf = mvn release:perform"
   echo "  mrrb   = mvn release:rollback"
-  echo "  mdep   = mvn dependency:tree"
+  echo "  mdt    = mvn dependency:tree"
+  echo "  mdl    = mvn dependency:list"
   echo "  mpom   = mvn help:effective-pom"
-  echo "  mcisk  = mvn clean install -Dmaven.test.skip=true"  
+  echo "  misk   = mvn install -DskipTests"
+  echo "  mcisk  = mvn clean install -DskipTests"
+  echo "  mee    = mvn eclipse:eclipse -Dmaven.eclipse.output.dir=eclipsebin"
   echo
 }

@@ -13,7 +13,7 @@ alias gl='git pull'
 alias gup='git fetch && git rebase'
 alias gp='git push'
 alias gpo='git push origin'
-alias gdv='git diff -w "$@" | vim -R -'
+alias gpom='git push origin master'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gci='git commit --interactive'
@@ -29,10 +29,10 @@ alias gll='git log --graph --pretty=oneline --abbrev-commit'
 
 case $OSTYPE in
   linux*)
-    alias gd='git diff | vim -R -'
+    alias gd='git diff'
     ;;
   darwin*)
-    alias gd='git diff | mate'
+    alias gd='git diff'
     ;;
   darwin*)
     alias gd='git diff'
@@ -54,8 +54,7 @@ function git-help() {
   echo "  gl      = git pull"
   echo "  gup     = git fetch && git rebase"
   echo "  gp      = git push"
-  echo "  gd      = git diff | mate"
-  echo "  gdv     = git diff -w \"$@\" | vim -R -"
+  echo "  gd      = git diff"
   echo "  gc      = git commit -v"
   echo "  gca     = git commit -v -a"
   echo "  gci 	  = git commit --interactive"
@@ -67,6 +66,7 @@ function git-help() {
   echo "  gexport = git git archive --format zip --output"
   echo "  gdel    = git branch -D"
   echo "  gpo     = git push origin"
+  echo "  gpom     = git push origin master"
   echo "  gmu     = git fetch origin -v; git fetch upstream -v; git merge upstream/master"
   echo "  gll     = git log --graph --pretty=oneline --abbrev-commit"
   echo
