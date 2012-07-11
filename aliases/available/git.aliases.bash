@@ -1,4 +1,5 @@
-#!/bin/bash
+cite 'about-alias'
+about-alias 'common git abbreviations'
 
 # Aliases
 alias gcl='git clone'
@@ -38,8 +39,6 @@ case $OSTYPE in
     alias gd='git diff'
     ;;
 esac
-
-
 
 function git-help() {
   echo "Git Custom Aliases Usage"
