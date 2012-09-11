@@ -31,4 +31,3 @@ alias lily-upgrade-from-1.0=~/work/outerthought/lily/tools/upgrade/target/lily-u
 alias lily-upgrade-from-1.1=~/work/outerthought/lily/tools/upgrade/target/lily-upgrade-from-1.1
 alias rest-perftest=~/work/outerthought/lily/cr/process/rest-perftest/target/rest-perftest
 
-alias whirr=~/work/outerthought/whirr/bin/whirr

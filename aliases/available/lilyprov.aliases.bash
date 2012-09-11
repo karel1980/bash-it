@@ -1,0 +1,10 @@
+#alias lily-prov-clear-data=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-clear-data.sh
+#alias lily-prov-get-env=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-get-env.sh
+#alias lily-prov-push-configuration=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-push-configuration.sh
+#alias lily-prov-restart-all=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-restart-all.sh
+#alias lily-prov-start-all=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-start-all.sh
+#alias lily-prov-status-all=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-status-all.sh
+#alias lily-prov-stop-all=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-stop-all.sh
+#alias lily-prov-test-cleanup=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-test-cleanup.sh
+#alias lily-prov-test-prepare=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-test-prepare.sh
+#alias lily-prov-test-run=~/work/outerthought/lily-provisioning/whirr/scripts/lily-prov-test-run.sh
